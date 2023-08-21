@@ -1,0 +1,29 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 40px;
+    margin-left: 8px; 
+    margin-right: 8px; 
+    align-items: center;
+    background-color: black;
+    z-index: 10;
+
+}
+
+.header > div{
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.header > div:hover{
+    opacity: 1;
+}
+

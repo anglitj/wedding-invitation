@@ -1,0 +1,45 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+   
+}
+
+.front-page{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    align-items: center;
+    background-color:antiquewhite;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+}
+
+.front-title{
+    position: absolute;
+    top:200px;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    /* margin-top: 2em; */
+    border: 1px blue solid;
+}
+
+.front-date{
+    font-size: 40px;
+    /* border: 1px blue solid; */
+}
+
+.front-invitation{
+    position: absolute;
+    bottom:50px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    width: 95vw;
+    /* border: 1px blue solid; */
+    
+}
+
+
