@@ -3,6 +3,13 @@
    
 }
 
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border: 1px black solid;
+}
+
 .front-page{
     position: relative;
     height: 90vh;
@@ -13,17 +20,18 @@
     background-color:antiquewhite;
     margin-top: 40px;
     margin-bottom: 10px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .front-title{
     position: absolute;
-    top:200px;
+    top:150px;
     font-size: 60px;
     font-weight: bold;
     font-style: italic;
+    z-index: 1;
     /* margin-top: 2em; */
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
 }
 
 .front-date{

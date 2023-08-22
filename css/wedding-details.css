@@ -1,6 +1,6 @@
 
 .wedding-details{
-    height: 40vh;
+    height: 70vh;
     display: flex;
     position: relative;    
     flex-direction: column;    
@@ -8,20 +8,20 @@
     align-items: center;
     background-color:antiquewhite;
     margin-bottom: 10px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .wedding-title{
     position: absolute;
-    top:20vh;
+    top:15vh;
     font-size: 60px;
     font-weight: bold;
     font-style: italic;
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
 }
 
 .wedding-timeline{
-    height: 40vh;
+    height: 60vh;
     display: flex;
     position: relative;    
     flex-direction: column;    

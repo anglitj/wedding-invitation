@@ -1,6 +1,6 @@
 .entourage-page{
     position: relative;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;    
     text-align: center;
@@ -8,17 +8,17 @@
     background-color:antiquewhite;
     margin-top: 40px;
     margin-bottom: 10px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .entourage-title{
     position: absolute;
-    top:20vh;
+    top:10vh;
     font-size: 60px;
     font-weight: bold;
     font-style: italic;
     /* margin-top: 2em; */
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
 }
 
 .entourage-content{
