@@ -1,6 +1,6 @@
 
 .wedding-details{
-    height: 70vh;
+    height: 110vh;
     display: flex;
     position: relative;    
     flex-direction: column;    
@@ -13,37 +13,37 @@
 
 .wedding-title{
     position: absolute;
-    top:15vh;
-    font-size: 60px;
+    top:30vh;
+    font-size: 300%;
     font-weight: bold;
     font-style: italic;
     /* border: 1px blue solid; */
 }
 
 .wedding-timeline{
-    height: 60vh;
+    height: 70vh;
     display: flex;
     position: relative;    
     flex-direction: column;    
     text-align: center;
     align-items: center;
-    background-color:antiquewhite;
+    background-color:antiquewhite;    
     /* border: 1px black solid; */
 }
 
 .wedding-date-title{
     position: absolute;
-    top:5vh;
-    font-size: 30px;
-    /* font-weight: bold;
-    font-style: italic; */
+    top:10vh;
+    font-size: 200%;
+    font-weight: bold;
+    /*font-style: italic; */
     /* border: 1px blue solid; */
 }
 
 .wedding-date{
     position: absolute;
-    top:10vh;
-    font-size: 30px;
+    top:15vh;
+    font-size: 200%;
     /* font-weight: bold;
     font-style: italic; */
     /* border: 1px blue solid; */
@@ -51,8 +51,8 @@
 
 .timeline-title{
     position: absolute;
-    top:20vh;
-    font-size: 30px;
+    top:30vh;
+    font-size: 200%;
     /* font-weight: bold;
     font-style: italic; */
     /* border: 1px blue solid; */
@@ -60,15 +60,61 @@
 
 .wedding-schedules{
     position: absolute;
-    top:25vh;
-    width: 70vw;
-
-    font-size: 20px;
-    border: 1px blue solid;
+    top:35vh;
+    width: 75vw;
+    text-align: start;
+    font-size: 120%;
+    /* border: 1px blue solid; */
 }
 
 .wedding-schedule{
     display: flex;
-    justify-content: space-around;
-    margin: 5px;
+    justify-content:left; 
+    margin: 3%;
 }
+
+.timeline-time{
+    margin-left: 60px; 
+    margin-right: 5px; 
+    font-weight: 600;
+}
+
+.wedding-location{
+    height: 70vh;
+    display: flex;
+    position: relative;    
+    flex-direction: column;    
+    text-align: center;
+    align-items: center;
+    background-color:antiquewhite;    
+}
+.wedding-location-title{    
+    position: absolute;
+    top:8vh;
+    font-size: 200%;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.wedding-address{
+    position: absolute;
+    top:15vh;
+    font-size: 150%;
+    font-weight: bold;
+
+    z-index: 1;
+}
+
+.wedding-address2{
+    position: absolute;
+    top:18vh;
+    font-size: 100%;
+    font-weight: bold;    
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+
+
+
+
