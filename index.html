@@ -16,14 +16,14 @@
 
   
     <div class="header">
-      <div class="home-menu" href="#">Home</div>
-      <div class="about-menu">About</div>
-      <div class="details-menu">Details</div>
-      <div class="entourage-menu">Entourage</div>
-      <div class="faqs-menu">FAQs</div>
+      <a href="#front-page">Home</a>
+      <a href="#about-page">About</a>
+      <a href="#wedding-details">Details</a>
+      <a href="#entourage-page">Entourage</a>
+      <a href="#faqs-page">FAQs</a>
     </div>
 
-    <div class="front-page">
+    <div id="front-page" class="front-page">
       <div class="front-title">
         <div class="front-names">Jem & Marru</div>
         <div class="front-date">10.21.2023</div>
@@ -32,7 +32,7 @@
       <!-- <div class="front-invitation">This served as our online invitation</div> -->
     </div>
 
-    <div class="about-page">
+    <div id="about-page" class="about-page">
       <div class="about-title">About the couple</div>
       <img src="images/367841278_994370938466897_5106462502980863805_n.jpg" alt="">
     </div>
@@ -54,7 +54,7 @@
     </div>    
     
 
-    <div class="wedding-details">   
+    <div id="wedding-details" class="wedding-details">   
       <img src="images/368912025_260348996763703_1138640606476459001_n.jpg" alt="">
       <div class="wedding-title">Wedding Details</div>
     </div>
@@ -65,55 +65,48 @@
       <div class="timeline-title">Timeline</div>
 
       <div class="wedding-schedules">
-        <div class="wedding-schedule">
-          <!-- <div class="timeline-logo">Logo1</div> -->
-          <div class="timeline-time">11:00 AM</div>
-          <div class="timeline-event">- Groomsmen &amp; Bridesmaids Call time</div>
-        </div>
-        
-        <div class="wedding-schedule">
-          <!-- <div class="timeline-logo">Logo2</div> -->
-          <div class="timeline-time">11:30 AM</div>
-          <div class="timeline-event">- Groomsmen &amp; Bridesmaids Photoshoot</div>
-        </div>
+        <table>
+          <tr class="wedding-schedule">
+            <td class="timeline-time">11:00 AM</td>
+            <td>- Groomsmen &amp; Bridesmaids Call time</td>
+          </tr>
 
-        
-        <div class="wedding-schedule">
-          <!-- <div class="timeline-logo">Logo3</div> -->
-          <div class="timeline-time">04:00 PM</div>
-          <div class="timeline-event">- Entourage Call time</div>
-        </div>
+          <tr class="wedding-schedule">
+            <td class="timeline-time">11:30 AM</td>
+            <td>- Groomsmen &amp; Bridesmaids Photoshoot</td>
+          </tr>
 
-        
-        <div class="wedding-schedule">
-          <!-- <div class="timeline-logo">Logo4</div> -->
-          <div class="timeline-time">05:00 PM</div>
-          <div class="timeline-event">- Ceremony</div>
-        </div>
+          <tr class="wedding-schedule">
+            <td class="timeline-time">04:00 AM</td>
+            <td>- Entourage Call Time</td>
+          </tr>
 
-        <div class="wedding-schedule">
-          <!-- <div class="timeline-logo">Logo4</div> -->
-          <div class="timeline-time">07:00 PM</div>
-          <div class="timeline-event">- Dinner</div>
-        </div>
+          <tr class="wedding-schedule">
+            <td class="timeline-time">05:00 AM</td>
+            <td>- Ceremony</td>
+          </tr>
 
-        
-        <div class="wedding-schedule">
-          <!-- <div class="timeline-logo">Logo5</div> -->
-          <div class="timeline-time">08:00  PM</div>
-          <div class="timeline-event">- Party Time</div>
-        </div>
+          <tr class="wedding-schedule">
+            <td class="timeline-time">07:00 AM</td>
+            <td>- Dinner</td>
+          </tr>
+
+          <tr class="wedding-schedule">
+            <td class="timeline-time">08:00 AM</td>
+            <td>- Party Time</td>
+          </tr>
+        </table>
+       
       </div>
     </div>
 
     <div class="wedding-location">
       <div class="wedding-location-title">Ceremony &amp; Reception </div>
-      <div class="wedding-address">Johann's Private Resort</div>
-      <div class="wedding-address2">Brgy. San Pedro, Santo Tomas, Batangas <br/>(near Central Bible Baptist Church)</div>
-      <img src="images/279578547_107214825315296_2215292687062970163_n.jpg" alt="">
+      <div class="wedding-address"><a href="https://waze.com/ul/hwdw0jkm0b" target="_blank">Johann's Private Resort</a></div>
+      <div class="wedding-address2"><a href="https://waze.com/ul/hwdw0jkm0b" target="_blank">Brgy. San Pedro, Santo Tomas, Batangas <br/>(near Central Bible Baptist Church)</a></div>
     </div>
 
-    <div class="entourage-page">
+    <div id="entourage-page" class="entourage-page">
       <img src="images/368510202_253953997553978_6438022894969112922_n.jpg" alt="">
       <div class="entourage-title">Entourage</div>    
     </div>
@@ -207,7 +200,7 @@
       
     </div>
 
-    <div class="faqs-page">
+    <div id="faqs-page" class="faqs-page">
       <div class="faqs-title">Frequently Asked Questions</div>    
       <img src="images/367960447_681067340113086_6457659538766773066_n.jpg" alt="">
     </div>
@@ -311,6 +304,7 @@
         </div>
       </div>
     </div>
+    <button href="#"> back to top</button>
   </div>
   
   

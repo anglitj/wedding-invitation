@@ -1,4 +1,7 @@
-
+a{
+    text-decoration: none;
+    color:black
+}
 .wedding-details{
     height: 110vh;
     display: flex;
@@ -21,7 +24,7 @@
 }
 
 .wedding-timeline{
-    height: 70vh;
+    /* height: 60vh; */
     display: flex;
     position: relative;    
     flex-direction: column;    
@@ -32,8 +35,9 @@
 }
 
 .wedding-date-title{
-    position: absolute;
-    top:10vh;
+    /* position: absolute;
+    top:10vh; */
+    padding-top: 10vh;
     font-size: 200%;
     font-weight: bold;
     /*font-style: italic; */
@@ -41,17 +45,17 @@
 }
 
 .wedding-date{
-    position: absolute;
-    top:15vh;
+    /* position: absolute; */
     font-size: 200%;
+    margin-top: 2vh;
     /* font-weight: bold;
     font-style: italic; */
     /* border: 1px blue solid; */
 }
 
 .timeline-title{
-    position: absolute;
-    top:30vh;
+    /* position: absolute; */    
+    margin-top: 10vh;
     font-size: 200%;
     /* font-weight: bold;
     font-style: italic; */
@@ -59,58 +63,79 @@
 }
 
 .wedding-schedules{
-    position: absolute;
-    top:35vh;
-    width: 75vw;
+    /* position: absolute; */
+    margin-bottom: 5vh;
     text-align: start;
     font-size: 120%;
     /* border: 1px blue solid; */
 }
 
 .wedding-schedule{
-    display: flex;
-    justify-content:left; 
-    margin: 10px;
+    height: 30px;
 }
 
 .timeline-time{
-    margin-left: 60px; 
-    margin-right: 5px; 
+    /* margin-left: 60px;  */
+    /* margin-right: 5px;  */
     font-weight: 600;
+    justify-content:right;
 }
 
 .wedding-location{
-    height: 70vh;
+    height: 70vh; 
     display: flex;
     position: relative;    
     flex-direction: column;    
     text-align: center;
     align-items: center;
-    background-color:antiquewhite;    
+    
+    /* background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position: center; */
+    /* background-color:antiquewhite;     */
+}
+
+.wedding-location::before{
+    content: "";
+    background-image: url("/images/279578547_107214825315296_2215292687062970163_n.jpg" );
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+
 }
 .wedding-location-title{    
-    position: absolute;
-    top:8vh;
+    /* position: absolute; */
+    margin-top:8vh;
+    margin-bottom:8vh;
     font-size: 200%;
     font-weight: bold;
     z-index: 1;
 }
 
 .wedding-address{
-    position: absolute;
-    top:15vh;
-    font-size: 150%;
-    font-weight: bold;
+    /* position: absolute; */
+    /* top:15vh; */
+    font-size: 180%;
+    font-weight: bold; 
+    cursor: pointer;
 
     z-index: 1;
 }
 
 .wedding-address2{
-    position: absolute;
-    top:18vh;
-    font-size: 100%;
+    /* position: absolute; */
+    /* top:18vh; */
+    font-size: 120%;
     font-weight: bold;    
     margin-bottom: 10px;
+    cursor: pointer;
     z-index: 1;
 }
 
