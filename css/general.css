@@ -1,0 +1,47 @@
+/* *{ */
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: great-vibes-regular; */
+    /* font-size: 20px; */
+
+/* } */
+
+@font-face {
+    font-family: great-vibes-regular;
+    src: url(/GreatVibes-Regular.ttf);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    /* border: 1px black solid; */
+}
+
+/* .container{
+    min-width: 700px;
+} */
+
+@media screen and (min-width: 700px) {
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .container{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
+@media screen and (min-width: 1800px) {
+    .container{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}

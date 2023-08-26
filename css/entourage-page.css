@@ -1,4 +1,5 @@
 .entourage-page{
+
     position: relative;
     height: 80vh;
     display: flex;
@@ -11,47 +12,69 @@
 }
 
 .entourage-title{
+    font-family: great-vibes-regular;    
+    font-size: 4.5em;
+    font-weight: bold;
+    /* font-weight: bold; */
     position: absolute;
     top:10vh;
-    font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
     /* margin-top: 2em; */
     /* border: 1px blue solid; */
 }
 
 .entourage-content{
+    color: white;
     position: relative;
     display: flex;
     flex-direction: column;    
     text-align: center;
-    align-items: center;
-    background-color:antiquewhite;
+    /* align-items: center; */
+    /* background-color:antiquewhite; */
     padding-bottom: 10px;
     margin-bottom: 10px;
     /* border: 1px black solid; */
 }
 
+.entourage-content::before{
+    content: "";
+    background-image: url("/images/nebula-deep-space-universe-cosmos-5k-3840x2160-8386.jpg" );
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+
 .entourage-labels{
-    /* font-size: 23px;     */
-    font-size: 1.2em;   
+    font-family: great-vibes-regular;
+    font-size: 2em;   
     font-weight: bold;
-    font-style: italic;
+    /* text-decoration: underline; */
+    /* font-style: italic; */
     margin-top: 25px;
+    z-index: 1;
 }
 
 .entourage-labels2{
     /* font-size: 20px;     */
-    font-size: 1.1em;   
+    font-family: great-vibes-regular;
+    font-size: 2em;   
     font-weight: bold;
-    font-style: italic;
+    /* text-decoration: underline; */
+    /* font-style: italic; */
     margin-top: 25px;
+    z-index: 1;
 }
 
 .entourage-names{
     font-size: 20px;  
     font-size: 1.1em;     
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
     margin-top: 5px;
+    z-index: 1;
 }

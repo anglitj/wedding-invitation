@@ -16,11 +16,14 @@
 }
 
 .about-title{
+    
+    font-family: great-vibes-regular;    
+    font-size: 4.5em;
     position: absolute;
     top:10vh;
-    font-size: 3em;
+    /* font-size: 3em; */
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
     z-index: 1;
 }
 
