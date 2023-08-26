@@ -37,7 +37,7 @@ img{
 .front-title{
     position: absolute;
     top:10vh;
-    font-size: 300%;
+    font-size: 3em;
     font-weight: bold;
     font-style: italic;
     z-index: 1;
@@ -45,20 +45,6 @@ img{
     /* border: 1px blue solid; */
 }
 
-.front-date{
-    font-size: 40px;
-    /* border: 1px blue solid; */
-}
 
-.front-invitation{
-    position: absolute;
-    bottom:50px;
-    font-size: 30px;
-    font-weight: 400;
-    font-style: normal;
-    width: 95vw;
-    /* border: 1px blue solid; */
-    
-}
 
 
