@@ -44,7 +44,7 @@ a{
 
 .wedding-timeline::before{
     content: "";
-    background-image: url("/images/4k-wallpaper-astro-astrology-astronomy.jpg" );
+    background-image: url("./images/4k-wallpaper-astro-astrology-astronomy.jpg" );
     background-size:cover;
     position: absolute;
     top: 0px;
