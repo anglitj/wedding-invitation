@@ -38,7 +38,7 @@
 
 .entourage-content::before{
     content: "";
-    background-image: url("/images/nebula-deep-space-universe-cosmos-5k-3840x2160-8386.jpg" );
+    background-image: url("./images/nebula-deep-space-universe-cosmos-5k-3840x2160-8386.jpg" );
     background-size:cover;
     background-position: center;
     position: absolute;
