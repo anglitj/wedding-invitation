@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: great-vibes-regular;
-    src: url(/GreatVibes-Regular.ttf);
+    src: url(../fonts/GreatVibes-Regular.ttf)
 }
 
 img{
