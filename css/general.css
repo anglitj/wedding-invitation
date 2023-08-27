@@ -19,6 +19,15 @@ img{
     /* border: 1px black solid; */
 }
 
+.img-bg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
 /* .container{
     min-width: 700px;
 } */
