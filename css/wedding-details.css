@@ -2,6 +2,17 @@ a{
     text-decoration: none;
     color:black
 }
+
+.img-bg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+    opacity: 0.6;
+}
+
 .wedding-details{
     height: 90vh;
     display: flex;
@@ -42,7 +53,7 @@ a{
     /* border: 1px black solid; */
 }
 
-.wedding-timeline::before{
+/* .wedding-timeline::before{
     content: "";
     background-image: url("./images/4k-wallpaper-astro-astrology-astronomy.jpg" );
     background-size:cover;
@@ -52,7 +63,7 @@ a{
     bottom: 0px;
     left: 0px;
     opacity: 0.9;
-}
+} */
 
 .wedding-date-title{
     /* position: absolute;
