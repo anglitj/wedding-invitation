@@ -19,19 +19,6 @@ img{
     /* border: 1px black solid; */
 }
 
-.img-bg{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    z-index: 0;
-    opacity: 0.6;
-}
-
-/* .container{
-    min-width: 700px;
-} */
 
 @media screen and (min-width: 700px) {
     .container{

@@ -133,9 +133,9 @@ a{
     align-items: center;    
 }
 
-/* .wedding-location::before{
+.wedding-location::before{
     content: "";
-    background-image: url("/images/279578547_107214825315296_2215292687062970163_n.jpg" );
+    background-image: url("./images/279578547_107214825315296_2215292687062970163_n.jpg" );
     background-size:cover;
     background-position: center;
     position: absolute;
@@ -144,7 +144,7 @@ a{
     bottom: 0px;
     left: 0px;
     opacity: 0.6;
-} */
+}
 
 
 
