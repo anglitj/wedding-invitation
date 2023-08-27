@@ -14,15 +14,25 @@
 }
 
 .front-title{
-    font-family: great-vibes-regular; ;
+    /* font-family: great-vibes-regular;     */
+    /* font-size: 4.5em; */
     position: absolute;
     top:10vh;
-    font-size: 4.5em;
     font-weight: bold;
     /* font-style: italic; */
     z-index: 1;
     /* margin-top: 2em; */
     /* border: 1px blue solid; */
+}
+
+.front-names{
+    font-family: great-vibes-regular;    
+    font-size: 4.5em;
+}
+
+.front-date{
+    font-family: great-vibes-regular;    
+    font-size: 3em;
 }
 
 

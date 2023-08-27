@@ -36,7 +36,7 @@
     /* border: 1px black solid; */
 }
 
-.entourage-content::before{
+/* .entourage-content::before{
     content: "";
     background-image: url("./images/nebula-deep-space-universe-cosmos-5k-3840x2160-8386.jpg" );
     background-size:cover;
@@ -47,7 +47,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.9;
-}
+} */
 
 .entourage-labels{
     font-family: great-vibes-regular;

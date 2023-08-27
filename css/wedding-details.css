@@ -3,13 +3,15 @@ a{
     color:black
 }
 
+
+
 .img-bg{
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    z-index: 0;
+    z-index: -1;
     opacity: 0.6;
 }
 
@@ -49,6 +51,7 @@ a{
     flex-direction: column;    
     /* text-align: center; */
     align-items: center;
+    z-index: 1;
     /* background-color:antiquewhite;     */
     /* border: 1px black solid; */
 }
@@ -90,9 +93,11 @@ a{
 }
 
 .timeline-title{
+    font-family: great-vibes-regular;    
+    font-size: 4em;
     /* position: absolute; */    
     margin-top: 10vh;
-    font-size: 2em;    
+    /* font-size: 2em;     */
     z-index: 1;
     /* font-weight: bold;
     font-style: italic; */
