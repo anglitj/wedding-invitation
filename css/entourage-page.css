@@ -1,13 +1,13 @@
 .entourage-page{
 
     position: relative;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;    
     text-align: center;
     align-items: center;
-    background-color:antiquewhite;
-    margin-bottom: 10px;
+    /* background-color:antiquewhite; */
+    /* margin-bottom: 10px; */
     /* border: 1px black solid; */
 }
 
@@ -15,16 +15,14 @@
     font-family: great-vibes-regular;    
     font-size: 4.5em;
     font-weight: bold;
-    /* font-weight: bold; */
-    position: absolute;
-    top:10vh;
-    /* font-style: italic; */
-    /* margin-top: 2em; */
-    /* border: 1px blue solid; */
+    color: white;
+    margin-top: 10vh;
+    position: relative;
 }
 
 .entourage-content{
     color: white;
+    /* width: 50vw; */
     position: relative;
     display: flex;
     flex-direction: column;    

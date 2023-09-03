@@ -5,24 +5,16 @@ a{
 
 
 
-.img-bg{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    z-index: -1;
-    opacity: 0.6;
-}
+
 
 .wedding-details{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     position: relative;    
     flex-direction: column;    
     text-align: center;
     align-items: center;
-    /* background-color:antiquewhite; */
+    background-color:white;
     margin-bottom: 10px;
     /* border: 1px black solid; */
 }
@@ -37,6 +29,7 @@ a{
     /* font-style: italic; */
     z-index: 1;
     /* border: 1px blue solid; */
+    
 }
 
 
@@ -54,6 +47,8 @@ a{
     z-index: 1;
     /* background-color:antiquewhite;     */
     /* border: 1px black solid; */
+    
+    /* color:black; */
 }
 
 /* .wedding-timeline::before{
@@ -76,16 +71,20 @@ a{
     font-size: 4.5em;
     padding-top: 10vh;
     /* font-size: 2em; */
-    font-weight: bold;
+    font-weight: 400;
     z-index: 1;
     /*font-style: italic; */
     /* border: 1px blue solid; */
+    
+    /* color:rgba(251, 213, 255); */
 }
 
 .wedding-date{
     /* position: absolute; */
-    font-size: 2em;
-    margin-top: 2vh;
+    font-family: great-vibes-regular;  
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-top: 1vh;
     z-index: 1;
     /* font-weight: bold;
     font-style: italic; */

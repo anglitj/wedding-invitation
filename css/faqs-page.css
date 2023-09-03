@@ -1,11 +1,12 @@
 .faqs-page{
     position: relative;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;    
     text-align: center;
     align-items: center;
-    background-color:antiquewhite;
+    z-index: 1;
+    /* background-color:antiquewhite; */
     /* border: 1px black solid; */
 }
 
@@ -13,14 +14,12 @@
     
     font-family: great-vibes-regular;    
     font-size: 4.5em;
-    position: absolute;
-    top:10vh;
-    /* font-size: 3em; */
-    font-weight: bold;
-    /* font-style: italic; */
+    font-weight: 600;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    position: relative;
     z-index: 1;
-    /* margin-top: 2em; */
-    /* border: 1px blue solid; */
 }
 
 .faqs{
@@ -29,24 +28,26 @@
     display: flex;
     align-items: center;    
     flex-direction: column;
-    background-color:antiquewhite;    
+    /* background-color:antiquewhite;     */
     z-index: 1;
 }
 
 .faqs-content{
-    position: absolute;
-    width: 50vw;
-    top: 5vh;
+    position: relative;
+    /* width: 50vw; */
     padding: 10px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-bottom: 20px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.7) ;
+    background-color: rgba(255, 255, 255, 0.8) ;
     
 }
 
 .question{
     font-family: Arial;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: center;
     margin-bottom: 10px;
 }

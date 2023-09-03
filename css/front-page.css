@@ -7,18 +7,17 @@
     flex-direction: column;    
     text-align: center;
     align-items: center;
-    background-color:antiquewhite;
+    background-color:rgba(0, 0, 0, 0.5);
     margin-top: 40px;
     margin-bottom: 10px;
-    /* border: 1px black solid; */
 }
 
 .front-title{
     /* font-family: great-vibes-regular;     */
     /* font-size: 4.5em; */
     position: absolute;
-    top:10vh;
-    font-weight: bold;
+    top:20vh;
+    font-weight: 400;
     /* font-style: italic; */
     z-index: 1;
     /* margin-top: 2em; */
@@ -28,11 +27,23 @@
 .front-names{
     font-family: great-vibes-regular;    
     font-size: 4.5em;
+    /* color:rgba(251, 213, 255); */
+    color:white;
 }
 
 .front-date{
     font-family: great-vibes-regular;    
-    font-size: 3em;
+    font-size: 2em;
+    color:white;
+}
+
+.hash-tag{
+    border-radius: 5px;
+    margin-top: 5vh;
+    padding: 10px;
+    font-family: aspire-demibold; 
+    font-size:2em;
+    color:white;
 }
 
 
