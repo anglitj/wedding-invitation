@@ -27,4 +27,35 @@
     opacity: 1;
 }
 
+@media screen and (min-width: 700px) {
+
+    .header{
+        margin-left: 10.7%;
+        margin-right: 10.7%;
+    }
+
+}
+
+
+@media screen and (min-width: 1100px) {
+
+    .header{
+        margin-left: 20.4%;
+        margin-right: 20.4%;
+    }
+
+}
+
+
+@media screen and (min-width: 1700px) {
+
+    .header{
+        margin-left: 30.2%;
+        margin-right: 30.2%;
+    }
+
+
+
+   
+}
 
