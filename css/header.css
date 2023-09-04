@@ -5,8 +5,8 @@
     right: 0;
     display: flex;
     height: 40px;
-    margin-left: 8px; 
-    margin-right: 8px; 
+    /* margin-left: 8px;  */
+    /* margin-right: 8px;  */
     align-items: center;
     background-color: black;
     z-index: 10;
@@ -30,8 +30,8 @@
 @media screen and (min-width: 700px) {
 
     .header{
-        margin-left: 10.7%;
-        margin-right: 10.7%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 }
@@ -40,8 +40,8 @@
 @media screen and (min-width: 1100px) {
 
     .header{
-        margin-left: 20.4%;
-        margin-right: 20.4%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
 }
@@ -50,8 +50,8 @@
 @media screen and (min-width: 1700px) {
 
     .header{
-        margin-left: 30.2%;
-        margin-right: 30.2%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
 
