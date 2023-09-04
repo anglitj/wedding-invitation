@@ -8,7 +8,7 @@
 }
 
 body{
-    min-width: 600px;
+    min-width: 500px;
     margin: 0;
 }
 
@@ -57,7 +57,7 @@ body{
     }
 
     .faqs-content{
-        width: 50vw;
+        min-width: 400px;
     }
 }
 
@@ -68,7 +68,10 @@ body{
         margin-right: 20%;
     }
     .faqs-content{
-        width: 40vw;
+        width: 500px;
+        margin-left: 20%;
+        margin-right: 20%;
+        min-width: 700px;
     }
 }
 
@@ -78,9 +81,9 @@ body{
         margin-left: 30%;
         margin-right: 30%;
     }
-    .faqs-content{
+    /* .faqs-content{
         width: 30vw;
-    }
+    } */
 
 
    
