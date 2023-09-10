@@ -19,10 +19,7 @@
     position: absolute;
     top:10%;
     font-weight: 400;
-    /* font-style: italic; */
-    z-index: 1;
-    /* margin-top: 2em; */
-    /* border: 1px blue solid; */
+    z-index: 1;   
 }
 
 .front-names{
