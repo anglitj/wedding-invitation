@@ -10,12 +10,13 @@
     align-items: center;
     background-color: black;
     z-index: 10;
+    min-width: 400px;
 
 }
 
 .header > a{
     color: white;
-    font-size: 80%;
+    font-size: 1em;
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -25,6 +26,22 @@
 
 .header > a:hover{
     opacity: 1;
+}
+
+@media screen and (min-width: 300px) {
+
+    *{
+     font-size: 10px;
+    }
+    
+ }
+
+@media screen and (min-width: 400px) {
+
+   *{
+    font-size: 12px;
+   }
+   
 }
 
 @media screen and (min-width: 700px) {
@@ -53,9 +70,6 @@
         margin-left: 30%;
         margin-right: 30%;
     }
-
-
-
    
 }
 
