@@ -20,25 +20,25 @@
 }
 
 .front-names{
+    color:white;
     font-family: great-vibes-regular;    
     font-size: 4.5em;
     /* color:rgba(251, 213, 255); */
-    color:white;
 }
 
 .front-date{
+    color:white;
     font-family: great-vibes-regular;    
     font-size: 2em;
-    color:white;
 }
 
 .hash-tag{
+    color:white;
     border-radius: 5px;
     margin-top: 5vh;
     padding: 10px;
     font-family: aspire-demibold; 
     font-size:2em;
-    color:white;
 }
 
 
