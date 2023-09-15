@@ -42,11 +42,27 @@ img{
     z-index: 0;
 }
 
+@media screen and (min-width: 100px) {
+
+    *{
+     font-size: 12px;
+    }
+
+ }
+
+@media screen and (min-width: 200px) {
+
+    *{
+     font-size: 14px;
+    }
+
+ }
+
 
 @media screen and (min-width: 300px) {
 
     *{
-     font-size: 10px;
+     font-size: 16px;
     }
 
     .faqs-content{

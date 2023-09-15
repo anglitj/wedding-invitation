@@ -1,24 +1,34 @@
 
 
 .front-page{
-    position: relative;
-    height: 80vh;
+    height: 95vh;
     display: flex;
-    flex-direction: column;    
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    background-color:rgba(0, 0, 0, 0.5);
-    margin-top: 40px;
-    min-height: 500px;
+    text-align: center; 
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    margin-top: 5vh;
+    min-height: 300px;
 }
 
+/* .front-page::before{
+    content: "";
+    background-image: url("/images2/bg4.jpeg" );
+    display: block;    
+    /*position: absolute;
+    top: 5vh;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    opacity: 0.9;
+    z-index: -1; 
+} */
+
 .front-title{
-    /* font-family: great-vibes-regular;     */
-    /* font-size: 4.5em; */
-    position: absolute;
-    top:10%;
+    font-family: great-vibes-regular;     
     font-weight: 400;
-    z-index: 1;   
+    z-index: 1;
+      
 }
 
 .front-names{
