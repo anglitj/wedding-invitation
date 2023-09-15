@@ -3,6 +3,7 @@
 .front-page{
     height: 95vh;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     text-align: center; 
@@ -10,19 +11,6 @@
     margin-top: 5vh;
     min-height: 300px;
 }
-
-/* .front-page::before{
-    content: "";
-    background-image: url("/images2/bg4.jpeg" );
-    display: block;    
-    /*position: absolute;
-    top: 5vh;
-    right: 0px;
-    bottom: 0px;
-    left: 0px; 
-    opacity: 0.9;
-    z-index: -1; 
-} */
 
 .front-title{
     font-family: great-vibes-regular;     
