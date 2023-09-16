@@ -1,0 +1,40 @@
+.rsvp-page{
+    height: auto;
+    display: flex;
+    position: relative;    
+    flex-direction: column;    
+    text-align: center;
+    align-items: center;
+    color:white;   
+    padding-bottom: 40px;
+    /* border: 1px black solid; */
+}
+
+.rsvp-title{
+    font-family: great-vibes-regular;    
+    font-size: 4.5em;
+    padding-top: 30px; 
+    position: relative;
+    font-weight: bold;
+    z-index: 1;    
+}
+
+.rsvp-message{
+    font-size: 1.25em;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 400;
+    
+    padding-bottom: 20px;
+    z-index: 1;  
+}
+.rsvp-link{    
+    font-size: 1em;
+    position: relative;
+    font-weight: bold;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;  
+}

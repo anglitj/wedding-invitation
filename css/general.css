@@ -26,6 +26,11 @@ html {
     src: url(../fonts/Aspire-DemiBold.ttf);
 }
 
+a{
+    text-decoration: none;
+    color:black
+}
+
 img{
     width: 100%;
     height: 100%;

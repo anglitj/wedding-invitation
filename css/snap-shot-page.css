@@ -1,0 +1,19 @@
+#snap-shot-page{
+    height: auto;
+    display: flex;
+    position: relative;    
+    flex-direction: column;    
+    text-align: center;
+    align-items: center;
+    color:black;   
+    padding-bottom: 40px;
+}
+
+.snap-shot-title{
+    font-family: great-vibes-regular;    
+    font-size: 3.5em;
+    padding-top: 30px; 
+    position: relative;
+    font-weight: bold;
+    z-index: 1;    
+}
