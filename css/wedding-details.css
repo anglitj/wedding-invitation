@@ -26,9 +26,6 @@
 }
 
 
-
-
-
 .wedding-timeline{
     /* height: 60vh; */
     color: white;
@@ -227,6 +224,17 @@
     width: 100px;
     margin-left: 5px;
 }
+
+.dress-note{
+    position: relative;
+    padding: 10px;    
+    color: black;
+    font-size: 0.8em;
+    font-style: italic;
+    z-index: 1;
+}
+
+
 
 
 
