@@ -229,8 +229,10 @@
     position: relative;
     padding: 10px;    
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     font-style: italic;
+    text-align: center;
+    justify-content: stretch;
     z-index: 1;
 }
 
